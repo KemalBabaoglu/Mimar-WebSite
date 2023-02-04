@@ -1,0 +1,88 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+box-sizing: border-box !important;
+  
+    font-family: 'Libre Baskerville', serif;
+}
+
+/* ! NAVBAR */
+.nav-link:hover{
+   color: rgb(192, 128, 10) !important;
+
+}
+
+
+/* !SLİDER START */
+.slider-css {
+    text-shadow: 1px 1px black !important; 
+}
+
+/* !SLİDER END */
+
+
+/* !HAKKIMIZDA START */
+
+.hakkimizda p{
+
+    color: black !important;
+    text-shadow: none !important;
+    font-size: 1rem;
+    line-height: 2rem;
+
+}
+hr{
+    opacity: 2;
+    border-top: 3px solid black;
+    width: 15rem;
+    margin: 3.5rem auto;
+    margin-bottom: -50px;
+   }
+
+   .png-beyaz{
+    width: 90px;   
+    border: 10px solid white;
+    background-color: white;
+    margin-bottom: 20px;
+
+    
+}
+
+/* !HAKKIMIZDA END */
+
+/* !EKİBİMİZ START */
+
+.png-gri{
+    width: 90px;
+    border: 10px solid #f2f2f2;
+    background-color: #f2f2f2;
+}
+.ekibimiz-img{
+    transition: 0.5s;
+}
+.ekibimiz-img:hover{
+opacity: 0.7;
+transition:0.5s;
+}
+
+
+/* !EKİBİMİZ END */
+
+
+/* !PROJELERİMİZ START */
+figure>a>img{
+    height: 220px !important;
+    transition: 0.5s;
+    
+}
+
+figure>a>img:hover{
+    scale: 1.03;
+    transition: 0.5s;
+}
+figure>a{
+    text-decoration: none ;
+}
+
+
+/* !PROJELERİMİZ END */
